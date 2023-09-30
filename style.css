@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+*::selection {
+  color: black !important;
+  background-color: white;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: lightseagreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  bottom: 30%;
+  font-size: 15px;
+  font-weight: 200;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: bisque;
+}
+
+#container {
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  overflow: hidden;
+}
+
+#container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 30px;
+}
+
+#container i {
+  font-size: 75px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0.8;
+  transition: all ease 0.4s;
+}
+
+
+
+/* Project 2 Closed  */
+
+
+
+/* video stop at 37:00 minute */
